@@ -1,5 +1,20 @@
 # Dasar Pemrograman ES6
 
+## Daftar Isi
+1. [Pendahuluan](#pendahuluan)
+2. [Let dan Const](#let-dan-const)
+3. [Fungsi Panah (Arrow Functions)](#fungsi-panah-arrow-functions)
+4. [Template Literals](#template-literals)
+5. [Destructuring Assignment](#destructuring-assignment)
+6. [Parameter Default](#parameter-default)
+7. [Operator Rest dan Spread](#operator-rest-dan-spread)
+8. [Kelas (Class)](#kelas-class)
+9. [Modul](#modul)
+10. [Promises dan Async/Await](#promises-dan-asyncawait)
+11. [Map dan Set di ES6](#map-dan-set-di-es6)
+12. [Generator](#generator)
+13. [Kesimpulan](#kesimpulan)
+
 ---
 
 ## Pendahuluan
