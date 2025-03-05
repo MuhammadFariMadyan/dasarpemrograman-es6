@@ -104,3 +104,21 @@ const deskripsiHewan = (pertama, ...lainnya) => {
 };
 deskripsiHewan("Macan Tutul", "Buaya", "Elang", "Beruang");
 ```
+
+---
+
+## 7. Kelas (Class)
+```js
+class Hewan {
+  constructor(nama, habitat) {
+    this.nama = nama;
+    this.habitat = habitat;
+  }
+  deskripsi() {
+    return `${this.nama} hidup di ${this.habitat}.`;
+  }
+}
+
+const panda = new Hewan("Panda", "Hutan Bambu");
+console.log(panda.deskripsi());
+```
