@@ -85,3 +85,22 @@ const suaraHewan = (hewan = "Serigala") => `${hewan} melolong di malam hari.`;
 console.log(suaraHewan()); // Serigala melolong di malam hari.
 console.log(suaraHewan("Rubah")); // Rubah melolong di malam hari.
 ```
+
+---
+
+## 6. Operator Rest dan Spread
+### Spread Operator
+```js
+const hewanHutan = ["Harimau", "Ular", "Jaguar"];
+const semuaHewan = ["Gajah", ...hewanHutan, "Rusa"];
+console.log(semuaHewan);
+```
+
+### Rest Operator
+```js
+const deskripsiHewan = (pertama, ...lainnya) => {
+  console.log(`Hewan pertama: ${pertama}`);
+  console.log(`Hewan lainnya: ${lainnya.join(", ")}`);
+};
+deskripsiHewan("Macan Tutul", "Buaya", "Elang", "Beruang");
+```
