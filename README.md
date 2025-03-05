@@ -19,3 +19,22 @@
 
 ## Pendahuluan
 Dasar pemrograman ES6 adalah ECMAScript 6, yaitu standar versi ke-6 dari bahasa pemrograman JavaScript. ES6 dirilis pada tahun 2015. ES6 membawa banyak fitur baru yang membuat JavaScript lebih mudah dan bersih untuk ditulis sehingga meningkatkan pengalaman pengembangan dan kinerja aplikasi JavaScript, terbukti dengan telah diadopsinya secara luas di seluruh komunitas pengembangan, bahkan kerangka kerja seperti React, Angular, dan Vue sangat bergantung pada fitur-fiturnya.
+
+---
+
+## 1. Let dan Const
+### `let`
+`let` memungkinkan deklarasi variabel dalam cakupan blok.
+```js
+let hewan = "Harimau";
+hewan = "Gajah"; // Diizinkan
+console.log(hewan); // Gajah
+```
+
+### `const`
+`const` mendeklarasikan variabel konstan yang tidak dapat diubah.
+```js
+const rajaHutan = "Singa";
+// rajaHutan = "Serigala"; // Error: Assignment to constant variable
+console.log(rajaHutan);
+```
