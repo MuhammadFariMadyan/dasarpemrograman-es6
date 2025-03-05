@@ -142,3 +142,24 @@ import { burungHutan, terbang } from "./hewan.js";
 console.log(burungHutan); // Beo
 console.log(terbang("Rajawali")); // Rajawali sedang terbang tinggi!
 ```
+
+---
+
+## 9. Promises dan Async/Await
+### Promises
+```js
+const mencariMakanan = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Beruang menemukan madu!"), 2000);
+});
+
+mencariMakanan.then((pesan) => console.log(pesan));
+```
+
+### Async/Await
+```js
+const mencariAir = async () => {
+  return "Rusa menemukan sungai!";
+};
+
+mencariAir().then(console.log);
+```
