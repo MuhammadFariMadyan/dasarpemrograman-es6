@@ -178,3 +178,19 @@ console.log(kecepatanHewan.get("Cheetah")); // Tercepat
 const hewanUnik = new Set(["Serigala", "Rubah", "Serigala"]);
 console.log(hewanUnik.size); // 2
 ```
+
+---
+
+## 11. Generator
+```js
+function* generatorHewan() {
+  yield "Gajah";
+  yield "Harimau";
+  yield "Jerapah";
+}
+
+const hewan = generatorHewan();
+console.log(hewan.next().value); // Gajah
+console.log(hewan.next().value); // Harimau
+console.log(hewan.next().value); // Jerapah
+```
