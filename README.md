@@ -57,3 +57,14 @@ const hewan = "Rusa";
 const pesan = `Si ${hewan} berlari cepat di dalam hutan.`;
 console.log(pesan);
 ```
+
+---
+
+## 4. Destructuring Assignment
+### Destructuring Array
+```js
+const hewanHutan = ["Monyet", "Macan", "Burung Hantu"];
+const [pertama, kedua, ketiga] = hewanHutan;
+console.log(pertama); // Monyet
+console.log(kedua); // Macan
+```
