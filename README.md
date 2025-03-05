@@ -47,3 +47,13 @@ Fungsi panah memberikan cara singkat untuk menulis fungsi.
 const mengaum = (hewan) => `${hewan} sedang mengaum!`;
 console.log(mengaum("Beruang")); // Beruang sedang mengaum!
 ```
+
+---
+
+## 3. Template Literals
+Template literals memungkinkan ekspresi dan string multiline.
+```js
+const hewan = "Rusa";
+const pesan = `Si ${hewan} berlari cepat di dalam hutan.`;
+console.log(pesan);
+```
