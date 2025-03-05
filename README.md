@@ -76,3 +76,12 @@ const { nama, kecepatan } = burung;
 console.log(nama); // Elang
 console.log(kecepatan); // Cepat
 ```
+
+---
+
+## 5. Parameter Default
+```js
+const suaraHewan = (hewan = "Serigala") => `${hewan} melolong di malam hari.`;
+console.log(suaraHewan()); // Serigala melolong di malam hari.
+console.log(suaraHewan("Rubah")); // Rubah melolong di malam hari.
+```
