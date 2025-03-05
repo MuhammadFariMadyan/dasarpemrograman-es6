@@ -38,3 +38,12 @@ const rajaHutan = "Singa";
 // rajaHutan = "Serigala"; // Error: Assignment to constant variable
 console.log(rajaHutan);
 ```
+
+---
+
+## 2. Fungsi Panah (Arrow Functions)
+Fungsi panah memberikan cara singkat untuk menulis fungsi.
+```js
+const mengaum = (hewan) => `${hewan} sedang mengaum!`;
+console.log(mengaum("Beruang")); // Beruang sedang mengaum!
+```
