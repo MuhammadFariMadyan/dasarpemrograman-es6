@@ -68,3 +68,11 @@ const [pertama, kedua, ketiga] = hewanHutan;
 console.log(pertama); // Monyet
 console.log(kedua); // Macan
 ```
+
+### Destructuring Object
+```js
+const burung = { nama: "Elang", kecepatan: "Cepat" };
+const { nama, kecepatan } = burung;
+console.log(nama); // Elang
+console.log(kecepatan); // Cepat
+```
