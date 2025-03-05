@@ -122,3 +122,23 @@ class Hewan {
 const panda = new Hewan("Panda", "Hutan Bambu");
 console.log(panda.deskripsi());
 ```
+
+---
+
+## 8. Modul
+### Ekspor
+```js
+// file: hewan.js
+export const burungHutan = "Beo";
+export function terbang(hewan) {
+  return `${hewan} sedang terbang tinggi!`;
+}
+```
+
+### Impor
+```js
+// file: main.js
+import { burungHutan, terbang } from "./hewan.js";
+console.log(burungHutan); // Beo
+console.log(terbang("Rajawali")); // Rajawali sedang terbang tinggi!
+```
