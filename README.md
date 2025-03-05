@@ -163,3 +163,18 @@ const mencariAir = async () => {
 
 mencariAir().then(console.log);
 ```
+
+## 10. Map dan Set di ES6
+### Map
+```js
+const kecepatanHewan = new Map();
+kecepatanHewan.set("Cheetah", "Tercepat");
+kecepatanHewan.set("Kura-kura", "Lambat");
+console.log(kecepatanHewan.get("Cheetah")); // Tercepat
+```
+
+### Set
+```js
+const hewanUnik = new Set(["Serigala", "Rubah", "Serigala"]);
+console.log(hewanUnik.size); // 2
+```
